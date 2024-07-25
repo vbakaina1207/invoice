@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 550px;
+    height: 719px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+    color: #2B283A;
+}
+
+.block-top{
+    /* height: 119px; */
+    background-color: #F5F5F5;
+    text-align: center;
+    margin: 0 auto;
+    padding: 32px;
+
+}
+
+h1{
+    color: #2B283A;
+    line-height: 40px;
+    font-weight:800;
+    font-size: 40px;
+}
+
+.block-top p {
+    font-size: 16px;;
+    line-height: 28px;
+}
+
+.block-btn{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.block-btn button{
+    width: 143px;
+    height: 45px;
+    border: 1px solid #D5D4D8;
+    background-color: white;
+    color: #4A4E74;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    border-radius: 7px;
+}
+ .products{
+    padding: 25px;
+ }
+.product,
+.result{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    margin: 25px 0;
+    background-color: #C3C6DB;
+    height: 1px;
+}
+
+.block-right div,
+.block-left div{
+    padding: 10px 0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 44px; */
+    margin-top: 50px;
+    background-color: #3770ED;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 9px 0;
+}
+
+.btn img{
+    width: 20px;
+    height: 20px;
+}
+
+.btn >* {
+    margin-right: 7px;
+}
+.task{
+    padding: 10px 0;
+}
+.task-prod{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.total-prod{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.btn-remove{
+    border: none;
+    color: #918E9B;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+
+.sum{
+    color: #4A4E74;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: right;
+}
